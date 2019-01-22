@@ -1,7 +1,6 @@
 ---
 name: "\U0001F41B Bug report"
 about: Create a report to improve Alpakka
-title: Connector name: description
 ---
 
 ### Are you looking for help?

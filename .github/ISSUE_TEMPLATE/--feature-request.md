@@ -1,7 +1,6 @@
 ---
 name: "\U0001F389 Feature request"
 about: Suggest an idea for this project
-title: Connector name: description
 ---
 
 If you have a [Lightbend Subscription](https://www.lightbend.com/lightbend-platform-subscription), please reach out via the [Lightbend Portal](https://portal.lightbend.com/).

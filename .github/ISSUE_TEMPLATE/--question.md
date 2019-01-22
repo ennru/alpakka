@@ -1,6 +1,6 @@
 ---
 name: "❓ Question"
-about: Please use the [Lightbend discuss forum](https://discuss.lightbend.com/c/akka/streams-and-alpakka) for questions
+about: Please use the Lightbend Discuss forum at https://discuss.lightbend.com/c/akka/streams-and-alpakka for questions
 
 ---
 
