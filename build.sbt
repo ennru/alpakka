@@ -244,6 +244,8 @@ lazy val mqttStreamingBench = internalProject("mqtt-streaming-bench", crossScala
 lazy val orientdb =
   alpakkaProject("orientdb", "orientdb", Dependencies.OrientDB, Test / fork := true, fatalWarnings := false)
 
+lazy val r2dbc = alpakkaProject("r2dbc", "r2dbc", Dependencies.R2dbc)
+
 lazy val reference = internalProject("reference", Dependencies.Reference)
   .dependsOn(testkit % Test)
 

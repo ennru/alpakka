@@ -382,6 +382,17 @@ object Dependencies {
     )
   }
 
+  // https://search.maven.org/artifact/io.r2dbc/r2dbc-bom/Arabba-SR7/pom
+  val R2dbc = Seq(
+    libraryDependencies ++= Seq(
+        "io.r2dbc" % "r2dbc-spi" % "0.8.2.RELEASE",
+//        "io.r2dbc" % "r2dbc-pool" % "0.8.4.RELEASE",
+        "io.r2dbc" % "r2dbc-h2" % "0.8.4.RELEASE" % Test,
+        "io.r2dbc" % "r2dbc-postgresql" % "0.8.5.RELEASE" % Test,
+        "org.testcontainers" % "postgresql" % "1.12.0" % Test
+      )
+  )
+
   val Reference = Seq(
     // connector specific library dependencies and resolver settings
     libraryDependencies ++= Seq(
